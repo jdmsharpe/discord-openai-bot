@@ -1,17 +1,17 @@
 # Discord ChatGPT Bot
 
-<!-- <div align="center">
+<div align="center">
+
+<a href="https://hub.docker.com/r/jsgreen152/discord-chatgpt" target="_blank" rel="noopener noreferrer">![Workflow](https://github.com/jdmsharpe/discord-chatgpt/actions/workflows/main.yml/badge.svg)</a>
   
-[![HitCount](https://hits.dwyl.com/Nick-McGee/discord-bot.svg?style=flat)](http://hits.dwyl.com/Nick-McGee/discord-bot)
-<a href="https://hub.docker.com/repository/docker/nrmcgee/discord-bot" target="_blank" rel="noopener noreferrer">![Workflow](https://github.com/Nick-McGee/discord-bot/actions/workflows/main.yml/badge.svg)</a>
-  
-</div> -->
+</div>
 
 ## What is it?
-This is a Discord bot built on <a href="https://github.com/Pycord-Development/pycord">Pycord 2.0</a>. It draws heavily <a href="https://github.com/Nick-McGee/discord-bot">Nick McGee's discord-bot</a>. The bot plays audio from a Youtube URL or search query. It is controlled with slash commands and the message-based user interface.
+This is a Discord bot built on <a href="https://github.com/Pycord-Development/pycord">Pycord 2.0</a>. It draws heavily <a href="https://github.com/Nick-McGee/discord-bot">Nick McGee's discord-bot</a>. The bot allows users in the server to interact with ChatGPT. It is controlled with slash commands and the message-based user interface.
 
 ### Commands
 + **chat** - Query ChatGPT to generate text based on input
+More to come
 
 ### UI
 
@@ -23,7 +23,7 @@ This is a Discord bot built on <a href="https://github.com/Pycord-Development/py
 ### Build and Run with Docker (Recommended)
 #### Build and run the image locally
 + Build the image with `docker build -t python-bot .` in the root directory
-+ Run the bot with `docker run -e BOT_TOKEN=<YOUR BOT TOKEN> -e GUILD_ID=<YOUR GUILD IDS IN LIST FORMAT> python-bot` in the root directory
++ Run the bot with `docker run -e BOT_TOKEN=<YOUR BOT TOKEN> -e GUILD_IDS=<YOUR GUILD IDS IN LIST FORMAT> python-bot` in the root directory
 
 ### Running from source
 + (Recommended) Create a virtual environment
