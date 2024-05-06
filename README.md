@@ -23,11 +23,12 @@ More to come
 ### Build and Run with Docker (Recommended)
 #### Build and run the image locally
 + Build the image with `docker build -t python-bot .` in the root directory
-+ Run the bot with `docker run -e BOT_TOKEN=<YOUR BOT TOKEN> -e GUILD_IDS=<YOUR GUILD IDS IN LIST FORMAT> python-bot` in the root directory
++ Run the bot with `docker run -e BOT_TOKEN=<YOUR BOT TOKEN> -e GUILD_IDS=<YOUR GUILD IDS IN LIST FORMAT> -e OPENAI_API_KEY=<YOUR OPENAI API KEY> python-bot` in the root directory
 
 ### Running from source
 + (Recommended) Create a virtual environment
 + Install the dependencies from `requirements.txt` with `pip install -r requirements.txt` in the root directory
 + Set an environment variable for BOT_TOKEN with your bot's token
 + Set an environment variable for GUILD_IDS with the Discord guild ids (servers) you wish to deploy the bot on
++ Set an environment variable for OPENAI_API_KEY with the OpenAI API key (available at <a href="https://platform.openai.com/api-keys">OpenAI API Platform</a>)
 + Run the bot with `python src/bot.py` in the root directory
