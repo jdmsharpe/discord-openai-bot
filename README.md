@@ -11,7 +11,7 @@ This is a Discord bot built on <a href="https://github.com/Pycord-Development/py
 
 ### Commands
 + **chat** - Query ChatGPT to generate text based on input
-More to come
++ **More to come**
 
 ### UI
 
